@@ -1,7 +1,7 @@
 header {
-  background-color: #1a1a1a;
+  background-color: var(--primary-color-offset);
   padding: 24px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: var(--box-shadow-vertical);
   display: flex;
   justify-content: space-between;
   align-items: center;

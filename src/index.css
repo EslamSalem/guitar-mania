@@ -1,3 +1,15 @@
+:root {
+  --primary-color: #121212;
+  --primary-color-offset: #1a1a1a;
+  --secondary-color: #f3f3f5;
+  --secondary-color-offset: #d5d5d5;
+  --accent-color-dark: #990000;
+  --accent-color-light: #dc2626;
+  --primary-text-color: #f3f3f5;
+  --secondary-text-color: #121212;
+  --box-shadow-vertical: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +18,6 @@
 
 body {
   font-family: system-ui, -apple-system, sans-serif;
-  background-color: #111113;
-  color: #f3f3f5;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
 }
