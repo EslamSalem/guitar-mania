@@ -1,0 +1,13 @@
+#hero {
+  background-image: url("../assets/hero/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero img {
+  width: 50%;
+}
