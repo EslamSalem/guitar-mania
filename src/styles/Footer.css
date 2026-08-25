@@ -29,4 +29,9 @@ footer {
 #links img {
   width: 40px;
   filter: invert(100%);
+  transition: filter .2s ease-in-out;
+}
+
+#links img:hover {
+  filter: invert(60%);
 }

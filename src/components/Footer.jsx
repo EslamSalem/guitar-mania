@@ -1,5 +1,5 @@
 import logo from "../assets/logo/guitar-mania-logo-secondary-stroke.png";
-import githubIcon from "../assets/github-icon.png"
+import githubIcon from "../assets/github-icon.png";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -10,7 +10,13 @@ function Footer() {
         <p>Designed & Developed by Eslam Salem</p>
       </div>
       <div id="links">
-        <img src={githubIcon} alt="Github Icon" />
+        <a
+          href="https://github.com/EslamSalem/guitar-mania"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={githubIcon} alt="Github Icon" />
+        </a>
       </div>
     </footer>
   );
