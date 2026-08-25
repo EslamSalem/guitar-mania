@@ -8,6 +8,7 @@
   --primary-text-color: #f3f3f5;
   --secondary-text-color: #121212;
   --box-shadow-vertical: 0px 4px 4px rgba(0, 0, 0, 0.6);
+  --border-gradient-horizontal: linear-gradient(to right, #000 0%, #f3f3f5 30%, #f3f3f5 70%, #000 100%);
 }
 
 * {

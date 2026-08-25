@@ -1,0 +1,32 @@
+footer {
+  background-color: var(--primary-color-offset);
+  height: 100px;
+  padding: 0px 24px;
+  border-top: solid 1px transparent;
+  border-image: var(--border-gradient-horizontal) 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#credits {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+#credits img {
+  width: 90px;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#links img {
+  width: 40px;
+  filter: invert(100%);
+}
