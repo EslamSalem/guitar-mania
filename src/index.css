@@ -22,3 +22,11 @@ body {
   background-color: var(--primary-color);
   color: var(--primary-text-color);
 }
+
+@font-face {
+  font-family: 'Endor';
+  src: url('./assets/fonts/Endor.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
