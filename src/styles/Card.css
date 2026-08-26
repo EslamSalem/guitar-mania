@@ -25,7 +25,7 @@
   transition: filter 0.2s ease-in-out;
 }
 
-.card img:hover {
+.card:hover img {
   filter: blur(0px);
 }
 
