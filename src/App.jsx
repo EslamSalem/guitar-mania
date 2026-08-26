@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Welcome from "./components/Welcome";
 import Footer from "./components/Footer";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Welcome />
       <Footer />
     </>
   );
