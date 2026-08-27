@@ -1,18 +1,25 @@
 .card {
   position: relative;
-  height: 200px;
-  width: 150px;
-  overflow: hidden;
+  height: 400px;
+  aspect-ratio: 3.6 / 5;
   border-radius: 6px;
   border: 1px solid var(--secondary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.1);
+  border: 1px solid transparent;
+}
+
+.card-img-wrapper {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 6px;
 }
 
 .card img {
@@ -22,6 +29,7 @@
   left: 0;
   filter: blur(2px);
   transition: filter 0.2s ease-in-out;
+  object-fit: cover;
 }
 
 .card:hover img {
@@ -33,6 +41,39 @@
   text-align: center;
   padding: 0 16px;
   background-color: rgba(0, 0, 0, 0.8);
-  font-weight: bold;
   /* -webkit-text-stroke: .8px var(--primary-color); */
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(var(--angle), var(--accent-gradient));
+  z-index: -1;
+  inset: -1.5px;
+  padding: 1.5px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  animation: spin 2s linear infinite;
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
 }

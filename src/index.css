@@ -8,7 +8,16 @@
   --primary-text-color: #f3f3f5;
   --secondary-text-color: #121212;
   --box-shadow-vertical: 0px 4px 4px rgba(0, 0, 0, 0.6);
-  --border-gradient-horizontal: linear-gradient(to right, #000 0%, #f3f3f5 30%, #f3f3f5 70%, #000 100%);
+  --border-gradient-horizontal: linear-gradient(
+    to right,
+    #000 0%,
+    #f3f3f5 30%,
+    #f3f3f5 70%,
+    #000 100%
+  );
+  --accent-gradient:
+    var(--accent-color-dark) 0%, transparent 30%, transparent 70%,
+    var(--accent-color-dark) 100%;
 }
 
 * {
@@ -18,14 +27,17 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
   background-color: var(--primary-color);
   color: var(--primary-text-color);
 }
 
 @font-face {
-  font-family: 'Endor';
-  src: url('./assets/fonts/Endor.woff2') format('woff2');
+  font-family: "Endor";
+  src: url("./assets/fonts/Endor.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
