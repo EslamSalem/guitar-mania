@@ -1,4 +1,5 @@
 import rockersImg from "../assets/rockers/rockers-card-1.webp";
+import theoryImg from "../assets/theory/theory-card-1.jpg"
 import tempImg from "../assets/list-temp.jpg";
 import Card from "./Card";
 import "../styles/Welcome.css";
@@ -18,9 +19,9 @@ function Welcome() {
         </p>
       </div>
       <div id="features">
-        <Card id="list-card" img={rockersImg} title="Famous Rockers" />
-        <Card id="list-card" img={tempImg} title="Learn Theory" />
-        <Card id="list-card" img={tempImg} title="More..." />
+        <Card id="rockers-card" img={rockersImg} title="Famous Rockers" />
+        <Card id="theory-card" img={theoryImg} title="Learn Theory" />
+        <Card id="more-card" img={tempImg} title="More..." />
       </div>
     </section>
   );

@@ -25,3 +25,9 @@
   margin-bottom: 8px;
   font-family: 'Endor', sans-serif;
 }
+
+#theory-card img {
+  transform: scale(1.4);
+	object-position: bottom;
+	transform-origin: left bottom;
+}
