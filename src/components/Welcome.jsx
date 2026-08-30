@@ -14,7 +14,7 @@ function Welcome() {
       <div id="welcome-text">
         <p>
           Here, you can learn cool facts about your favorite rock & metal
-          guitarists, learn music theory, and much more. Ready to dive in to the
+          guitarists, learn music theory, browse gear, and much more. Ready to dive in to the
           music?
         </p>
       </div>
