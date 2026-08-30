@@ -1,6 +1,6 @@
 import rockersImg from "../assets/rockers/rockers-card-1.webp";
 import theoryImg from "../assets/theory/theory-card-1.jpg"
-import tempImg from "../assets/list-temp.jpg";
+import gearImg from "../assets/guitar-gear.jpg";
 import Card from "./Card";
 import "../styles/Welcome.css";
 
@@ -21,7 +21,7 @@ function Welcome() {
       <div id="features">
         <Card id="rockers-card" img={rockersImg} title="Famous Rockers" />
         <Card id="theory-card" img={theoryImg} title="Learn Theory" />
-        <Card id="more-card" img={tempImg} title="More..." />
+        <Card id="gear-card" img={gearImg} title="Guitar Gear" />
       </div>
     </section>
   );
