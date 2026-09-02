@@ -1,0 +1,20 @@
+.divider {
+  height: 15vh;
+  max-height: 100px;
+  background: var(--border-gradient-horizontal);
+  clip-path: ellipse(60% 95% at 50% 0%);
+  border-top: 1px solid transparent;
+}
+
+.divider-background {
+  height: 99%;
+  background-color: var(--primary-color);
+  clip-path: ellipse(60% 95% at 50% 0%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider-logo {
+  height: 80%;
+}
