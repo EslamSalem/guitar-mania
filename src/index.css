@@ -1,7 +1,9 @@
 :root {
   --primary-color: #121212;
+  --primary-color-translucent: rgba(18, 18, 18, 0.85);
   --primary-color-offset: #1a1a1a;
   --secondary-color: #f3f3f5;
+  --secondary-color-translucent: rgba(243, 243, 245, 0.7);
   --secondary-color-offset: #d5d5d5;
   --accent-color-dark: #990000;
   --accent-color-light: #dc2626;
@@ -15,9 +17,13 @@
     #f3f3f5 70%,
     #000 100%
   );
-  --accent-gradient:
+  /* --accent-gradient:
     var(--accent-color-dark) 0%, transparent 30%, transparent 70%,
-    var(--accent-color-dark) 100%;
+    var(--accent-color-dark) 100%; */
+  --accent-gradient:
+    var(--accent-color-dark) 0deg, transparent 90deg,
+    var(--accent-color-dark) 180deg, transparent 270deg,
+    var(--accent-color-dark) 360deg;
 }
 
 * {
@@ -26,10 +32,22 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "CinzelDecorative", sans-serif;
   background-color: var(--primary-color);
   color: var(--primary-text-color);
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
 }
 
 @font-face {

@@ -48,7 +48,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(var(--angle), var(--accent-gradient));
+  background-image: conic-gradient(from var(--angle), var(--accent-gradient));
   z-index: -1;
   inset: -1.5px;
   padding: 1.5px;
