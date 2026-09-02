@@ -18,6 +18,7 @@
 .hero-title {
   font-family: "Endor", sans-serif;
   font-size: 5rem;
+  text-align: center;
   text-shadow:
     -3px -3px 0 #000,
     3px -3px 0 #000,

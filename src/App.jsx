@@ -13,13 +13,37 @@ function App() {
       <Header />
       <Landing />
       <Welcome />
-      <Hero id={"rockers-hero"} title={<>FAMOUS<br />ROCKERS</>}>
+      <Hero
+        id={"rockers-hero"}
+        title={
+          <>
+            FAMOUS
+            <br />
+            ROCKERS
+          </>
+        }
+      >
         <p>
           Get to know more about your favorite guitarists & musicians, check out
           what gear they use, and listen to some of their most popular work.
         </p>
       </Hero>
       <Divider />
+      <Hero
+        id={"theory-hero"}
+        title={
+          <>
+            LEARN
+            <br />
+            THEORY
+          </>
+        }
+      >
+        <p>
+          Learn Music theory Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Culpa itaque esse vel natus voluptatibus obcaecati tenetur rem.
+        </p>
+      </Hero>
       <Footer />
     </>
   );

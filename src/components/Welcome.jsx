@@ -22,7 +22,7 @@ function Welcome() {
         <a href="#rockers-hero">
           <Card id="rockers-card" img={rockersImg} title="Famous Rockers" />
         </a>
-        <a href="#">
+        <a href="#theory-hero">
           <Card id="theory-card" img={theoryImg} title="Learn Theory" />
         </a>
         <a href="#">
