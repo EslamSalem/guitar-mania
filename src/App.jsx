@@ -45,6 +45,23 @@ function App() {
           guitar playing.
         </p>
       </Hero>
+      <Divider />
+      <Hero
+        id={"gear-hero"}
+        title={
+          <>
+            Guitar
+            <br />
+            Gear
+          </>
+        }
+      >
+        <p>
+          Browse different guitar related gear like amplifiers, pedals,
+          speakers, and many other music production devices to get you started
+          on your music recording journey.
+        </p>
+      </Hero>
       <Footer />
     </>
   );

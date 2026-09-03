@@ -1,6 +1,7 @@
 import "../styles/Hero.css";
 import "../styles/Rockers-Hero.css";
 import "../styles/Theory-Hero.css";
+import "../styles/Gear-Hero.css"
 
 function Hero({ id, title, children }) {
   return (
