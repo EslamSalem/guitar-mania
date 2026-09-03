@@ -40,8 +40,9 @@ function App() {
         }
       >
         <p>
-          Learn Music theory Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Culpa itaque esse vel natus voluptatibus obcaecati tenetur rem.
+          Explore lessons about music theory where you can learn different
+          scales, how to construct chords, and how to use it effectively in your
+          guitar playing.
         </p>
       </Hero>
       <Footer />
