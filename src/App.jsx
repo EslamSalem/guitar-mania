@@ -22,6 +22,7 @@ function App() {
             ROCKERS
           </>
         }
+        path={"rockers"}
       >
         <p>
           Get to know more about your favorite guitarists & musicians, check out
@@ -38,6 +39,7 @@ function App() {
             THEORY
           </>
         }
+        path={"theory"}
       >
         <p>
           Explore lessons about music theory where you can learn different
@@ -55,6 +57,7 @@ function App() {
             Gear
           </>
         }
+        path={"gear"}
       >
         <p>
           Browse different guitar related gear like amplifiers, pedals,
