@@ -1,6 +1,6 @@
 footer {
   background-color: var(--primary-color-offset);
-  height: 100px;
+  height: 15vh;
   padding: 0px 24px;
   border-top: solid 1px transparent;
   border-image: var(--border-gradient-horizontal) 1;

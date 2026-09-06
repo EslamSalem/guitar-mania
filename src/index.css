@@ -12,10 +12,10 @@
   --box-shadow-vertical: 0px 4px 4px rgba(0, 0, 0, 0.6);
   --border-gradient-horizontal: linear-gradient(
     to right,
-    #000 0%,
-    #f3f3f5 30%,
-    #f3f3f5 70%,
-    #000 100%
+    var(--primary-color) 0%,
+    var(--secondary-color) 30%,
+    var(--secondary-color) 70%,
+    var(--primary-color) 100%
   );
   /* --accent-gradient:
     var(--accent-color-dark) 0%, transparent 30%, transparent 70%,
