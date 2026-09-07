@@ -1,6 +1,5 @@
 #rockers-page {
   min-height: 100vh;
-  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,12 +9,13 @@
   position: relative;
   height: 100%;
   padding: 24px;
+  margin-bottom: auto;
 }
 
 #rockers-filter {
   position: fixed;
-  top: 13vh;
-  height: 72vh;
+  top: 94px;
+  height: calc(100vh - (70px + 120px + 2 * 24px));
   width: 300px;
   background-color: var(--primary-color-offset);
   border: 1px solid var(--secondary-color);
@@ -29,9 +29,25 @@
   align-items: center;
 }
 
-#rockers-title {
-  font-family: 'Endor', sans-serif;
+/* #rockers-title {
   border-bottom: 1px solid transparent;
   border-image: var(--border-gradient-horizontal) 1;
   padding: 8px;
+} */
+
+#rockers-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 24px;
 }
+
+#rockers-cards .card {
+  height: auto;
+}
+
+#rockers-cards .card-title {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.7rem;
+}
+
