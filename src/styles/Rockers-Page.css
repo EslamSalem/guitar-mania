@@ -12,16 +12,6 @@
   margin-bottom: auto;
 }
 
-#rockers-filter {
-  position: fixed;
-  top: 94px;
-  height: calc(100vh - (70px + 120px + 2 * 24px));
-  width: 300px;
-  background-color: var(--primary-color-offset);
-  border: 1px solid var(--secondary-color);
-  border-radius: 8px;
-}
-
 #rockers-container {
   margin-left: 324px;
   display: flex;
@@ -48,6 +38,7 @@
 
 #rockers-cards .card-title {
   font-size: 1.2rem;
+  font-weight: normal;
   padding: 0.2rem 0.7rem;
 }
 

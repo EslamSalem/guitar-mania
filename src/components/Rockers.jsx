@@ -1,42 +1,51 @@
+import { useState } from "react";
 import Header from "./Header";
+import RockersFilter from "./RockersFilter";
 import Card from "./Card";
 import Footer from "./Footer";
 import "../styles/Rockers-Page.css";
-import image from "../assets/rockers/rockers-card-1.webp"
+import image from "../assets/rockers/rockers-card-1.webp";
 
-const rockersList = [
-  { name: "Guitarist 1" },
-  { name: "Guitarist 2" },
-  { name: "Guitarist 3" },
-  { name: "Guitarist 4" },
-  { name: "Guitarist 5" },
-  { name: "Guitarist 6" },
-  { name: "Guitarist 7" },
-  { name: "Guitarist 8" },
-  { name: "Guitarist 9" },
-  { name: "Guitarist 10" },
-  { name: "Guitarist 10" },
-  { name: "Guitarist 10" },
-  { name: "Guitarist 10" },
-  { name: "Guitarist 10" },
-  { name: "Guitarist 10" },
-  { name: "Guitarist 10" },
+const rockersData = [
+  { name: "Brian", genre: ["Metal", "Rock"], brand: "Schecter" },
+  { name: "May", genre: ["Rock"], brand: "Gibson" },
+  { name: "Zack", genre: ["Metal", "Blues"], brand: "Schecter" },
+  { name: "Johnny", genre: ["Blues", "Rock"], brand: "Ibanez" },
+  { name: "Jimmy", genre: ["Blues"], brand: "Gibson" },
+  { name: "James", genre: ["Metal"], brand: "Schecter" },
+  { name: "Hammet", genre: ["Metal"], brand: "Ibanez" },
+  { name: "Mark", genre: ["Metal", "Rock", "Blues"], brand: "Ibanez" },
+  { name: "Lzzy", genre: ["Rock"], brand: "Gibson" },
+  { name: "Tony", genre: ["Rock"], brand: "Schecter" },
+  { name: "Dave", genre: ["Blues"], brand: "Gibson" },
+  { name: "David", genre: ["Metal", "Blues"], brand: "Ibanez" },
+  { name: "Gary", genre: ["Blues"], brand: "Schecter" },
 ];
 
 function Rockers() {
+  const [filter, setFilter] = useState({
+    name: "",
+    genre: [],
+    brand: [],
+  });
+
+  const rockersList = rockersData.filter(
+    (item) =>
+      item.name.toLowerCase().startsWith(filter.name.toLowerCase()) &&
+      (filter.genre.length === 0 ||
+        filter.genre.some((gen) => item.genre.includes(gen))) &&
+      (filter.brand.length === 0 || filter.brand.includes(item.brand))
+  );
+
   return (
     <section id="rockers-page">
       <Header />
       <main id="rockers-page-content">
-        <div id="rockers-filter"></div>
+        <RockersFilter filter={filter} setFilter={setFilter} />
         <div id="rockers-container">
           <div id="rockers-cards">
             {rockersList.map((item) => (
-              <Card
-                id={crypto.randomUUID()}
-                img={image}
-                title={item.name}
-              />
+              <Card id={crypto.randomUUID()} img={image} title={item.name} />
             ))}
           </div>
         </div>
