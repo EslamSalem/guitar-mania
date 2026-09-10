@@ -16,14 +16,14 @@ function GenreFilter({ setFilter }) {
   return (
     <>
       <h3 className="filter-category">Genre</h3>
-      <div id="genre-filter">
+      <div id="genre-filter" className="filter-checkbox">
         <label>
           <input
             type="checkbox"
             value="Metal"
             onChange={(e) => updateGenreFilter(e)}
           />
-          Metal
+          <span>Metal</span>
         </label>
         <label>
           <input
@@ -31,7 +31,7 @@ function GenreFilter({ setFilter }) {
             value="Rock"
             onChange={(e) => updateGenreFilter(e)}
           />
-          Rock
+          <span>Rock</span>
         </label>
         <label>
           <input
@@ -39,7 +39,7 @@ function GenreFilter({ setFilter }) {
             value="Blues"
             onChange={(e) => updateGenreFilter(e)}
           />
-          Blues
+          <span>Blues</span>
         </label>
       </div>
     </>

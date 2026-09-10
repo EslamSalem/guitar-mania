@@ -2,9 +2,9 @@ function SortingIcon({ sorting }) {
   if (sorting === "asc")
     return (
       <svg
-        fill="#000000"
-        width="20px"
-        height="20px"
+        fill="currentColor"
+        width="25px"
+        height="25px"
         viewBox="-96 0 512 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -14,9 +14,9 @@ function SortingIcon({ sorting }) {
   else if (sorting === "dsc")
     return (
       <svg
-        fill="#000000"
-        width="20px"
-        height="20px"
+        fill="currentColor"
+        width="25px"
+        height="25px"
         viewBox="-96 0 512 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -26,9 +26,9 @@ function SortingIcon({ sorting }) {
   else
     return (
       <svg
-        fill="#000000"
-        width="20px"
-        height="20px"
+        fill="currentColor"
+        width="25px"
+        height="25px"
         viewBox="-96 0 512 512"
         xmlns="http://www.w3.org/2000/svg"
       >

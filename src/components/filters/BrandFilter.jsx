@@ -16,14 +16,14 @@ function BrandFilter({ setFilter }) {
   return (
     <>
       <h3 className="filter-category">Guitar Brand</h3>
-      <div id="brand-filter">
+      <div id="brand-filter" className="filter-checkbox">
         <label>
           <input
             type="checkbox"
             value="Schecter"
             onChange={(e) => updateBrandFilter(e)}
           />
-          Schecter
+          <span>Schecter</span>
         </label>
         <label>
           <input
@@ -31,7 +31,7 @@ function BrandFilter({ setFilter }) {
             value="Gibson"
             onChange={(e) => updateBrandFilter(e)}
           />
-          Gibson
+          <span>Gibson</span>
         </label>
         <label>
           <input
@@ -39,7 +39,7 @@ function BrandFilter({ setFilter }) {
             value="Ibanez"
             onChange={(e) => updateBrandFilter(e)}
           />
-          Ibanez
+          <span>Ibanez</span>
         </label>
       </div>
     </>

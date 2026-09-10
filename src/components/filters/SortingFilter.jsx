@@ -15,7 +15,10 @@ function SortingFilter({ filter, setFilter }) {
       <h3 className="filter-category">Sort By</h3>
       <div id="sorting-filter">
         <label>Name</label>{" "}
-        <button onClick={updateSorting}>
+        <button
+          className={filter.sortByName !== "none" ? "active" : "inactive"}
+          onClick={updateSorting}
+        >
           <SortingIcon sorting={filter.sortByName} />
         </button>
       </div>
