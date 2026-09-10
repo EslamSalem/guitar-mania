@@ -24,6 +24,7 @@
 
 .filter-category {
   font-weight: normal;
+  font-size: 1.2rem;
   border-bottom: 1px solid transparent;
   border-image: var(--border-gradient-horizontal) 1;
 }
@@ -86,7 +87,7 @@
   cursor: pointer;
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
-  padding: 3px;
+  padding: 2px;
   background-color: var(--ternary-color);
   transition: background-color 0.2s ease-in-out;
 }
