@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "./Header";
 import RockersFilter from "./RockersFilter";
 import Card from "./Card";
@@ -30,12 +30,20 @@ function Rockers() {
     sortByName: "none",
   });
 
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, []);
+
   const rockersFiltered = rockersData.filter(
     (item) =>
       item.name.toLowerCase().startsWith(filter.name.toLowerCase()) &&
       (filter.genre.length === 0 ||
         filter.genre.some((gen) => item.genre.includes(gen))) &&
-      (filter.brand.length === 0 || filter.brand.includes(item.brand))
+      (filter.brand.length === 0 || filter.brand.includes(item.brand)),
   );
 
   const rockersSorted = rockersFiltered.sort((a, b) => {

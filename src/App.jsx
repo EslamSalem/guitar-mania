@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
@@ -8,6 +8,14 @@ import Divider from "./components/Divider";
 import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, []);
+
   return (
     <>
       <Header />
