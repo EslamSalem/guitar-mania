@@ -4,25 +4,11 @@ import RockersFilter from "./RockersFilter";
 import Card from "./Card";
 import Footer from "./Footer";
 import "../styles/Rockers-Page.css";
-import image from "../assets/rockers/rockers-card-1.webp";
-
-const rockersData = [
-  { name: "Brian", genre: ["Metal", "Rock"], brand: "Schecter" },
-  { name: "May", genre: ["Rock"], brand: "Gibson" },
-  { name: "Zack", genre: ["Metal", "Blues"], brand: "Schecter" },
-  { name: "Johnny", genre: ["Blues", "Rock"], brand: "Ibanez" },
-  { name: "Jimmy", genre: ["Blues"], brand: "Gibson" },
-  { name: "James", genre: ["Metal"], brand: "Schecter" },
-  { name: "Hammet", genre: ["Metal"], brand: "Ibanez" },
-  { name: "Mark", genre: ["Metal", "Rock", "Blues"], brand: "Ibanez" },
-  { name: "Lzzy", genre: ["Rock"], brand: "Gibson" },
-  { name: "Tony", genre: ["Rock"], brand: "Schecter" },
-  { name: "Dave", genre: ["Blues"], brand: "Gibson" },
-  { name: "David", genre: ["Metal", "Blues"], brand: "Ibanez" },
-  { name: "Gary", genre: ["Blues"], brand: "Schecter" },
-];
 
 function Rockers() {
+  const [rockersData, setRockersData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
   const [filter, setFilter] = useState({
     name: "",
     genre: [],
@@ -36,6 +22,17 @@ function Rockers() {
       left: 0,
       behavior: "instant",
     });
+
+    fetch("/data/rockers.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setRockersData(data);
+        setIsLoading(false);
+      })
+      .catch((err) => {
+        console.error("Error Loading JSON:", err);
+        setIsLoading(false);
+      });
   }, []);
 
   const rockersFiltered = rockersData.filter(
@@ -46,7 +43,7 @@ function Rockers() {
       (filter.brand.length === 0 || filter.brand.includes(item.brand)),
   );
 
-  const rockersSorted = rockersFiltered.sort((a, b) => {
+  const rockersSorted = [...rockersFiltered].sort((a, b) => {
     if (filter.sortByName === "asc") return a.name.localeCompare(b.name);
     else if (filter.sortByName === "dsc") return b.name.localeCompare(a.name);
     else return 0;
@@ -58,11 +55,17 @@ function Rockers() {
       <main id="rockers-page-content">
         <RockersFilter filter={filter} setFilter={setFilter} />
         <div id="rockers-container">
-          <div id="rockers-cards">
-            {rockersFiltered.map((item) => (
-              <Card id={crypto.randomUUID()} img={image} title={item.name} />
-            ))}
-          </div>
+          {isLoading ? (
+            <p className="no-cards-msg">Loading Rockers...</p>
+          ) : rockersSorted.length > 0 ? (
+            <div id="rockers-cards">
+              {rockersSorted.map((item) => (
+                <Card id={crypto.randomUUID()} img={item.imgURL} title={item.name} />
+              ))}
+            </div>
+          ) : (
+            <p className="no-cards-msg">No Rockers Match Your Filters</p>
+          )}
         </div>
       </main>
       <Footer />

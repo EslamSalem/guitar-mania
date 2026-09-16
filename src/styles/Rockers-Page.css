@@ -12,11 +12,19 @@
   margin-bottom: auto;
 }
 
+#rockers-page-content:has(.no-cards-msg) {
+  margin-bottom: 0;
+}
+
 #rockers-container {
   margin-left: 324px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.no-cards-msg {
+  font-size: 1.5rem;
 }
 
 /* #rockers-title {

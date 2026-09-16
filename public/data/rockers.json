@@ -1,0 +1,18 @@
+[
+  { "name": "Synyster Gates", "genre": ["Heavy Metal", "Hard Rock"], "brand": "Schecter", "imgURL": "/images/rockers/Synyster Gates.jpg" },
+  { "name": "Brian May", "genre": ["Rock", "Hard Rock"], "brand": "Gibson", "imgURL": "/images/rockers/Brian May.jpg" },
+  { "name": "Angus Young", "genre": ["Hard Rock", "Blues"], "brand": "Gibson", "imgURL": "/images/rockers/Angus Young.jpg" },
+  { "name": "Jimmy Page", "genre": ["Hard Rock", "Blues"], "brand": "Gibson", "imgURL": "/images/rockers/Jimmy Page 1.jpg" },
+  { "name": "Zacky Vengeance", "genre": ["Heavy Metal", "Hard Rock"], "brand": "Schecter", "imgURL": "/images/rockers/Zacky Vengeance.jpg" },
+  { "name": "James Hetfield", "genre": ["Heavy Metal"], "brand": "ESP", "imgURL": "/images/rockers/James Hetfield 1.jpg" },
+  { "name": "Mark Knopfler", "genre": ["Rock", "Blues"], "brand": "Fender", "imgURL": "/images/rockers/Mark Knopfler.jpg" },
+  { "name": "Lzzy Hale", "genre": ["Hard Rock", "Heavy Metal"], "brand": "Gibson", "imgURL": "/images/rockers/Lzzy Hale.jpg" },
+  { "name": "Kirk Hammett", "genre": ["Heavy Metal"], "brand": "ESP", "imgURL": "/images/rockers/Kirk Hammet.jpg" },
+  { "name": "Tony Iommi", "genre": ["Heavy Metal", "Hard Rock"], "brand": "Gibson", "imgURL": "/images/rockers/Tony Iommi.jpg" },
+  { "name": "Dave Mustaine", "genre": ["Heavy Metal"], "brand": "Gibson", "imgURL": "/images/rockers/Dave Mustaine.jpg" },
+  { "name": "David Gilmour", "genre": ["Rock", "Blues"], "brand": "Fender", "imgURL": "/images/rockers/David Gilmour 1.jpg" },
+  { "name": "Jim Root", "genre": ["Heavy Metal"], "brand": "Fender", "imgURL": "/images/rockers/Jim Root.jpg" },
+  { "name": "Gary Moore", "genre": ["Blues", "Hard Rock"], "brand": "Gibson", "imgURL": "/images/rockers/Gary Moore.jpg" },
+  { "name": "Jimi Hendrix", "genre": ["Rock", "Blues"], "brand": "Fender", "imgURL": "/images/rockers/Jimi Hendrix.jpg" },
+  { "name": "Kurt Cobain", "genre": ["Rock"], "brand": "Fender", "imgURL": "/images/rockers/Kurt Cobain.jpg" }
+]
