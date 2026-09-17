@@ -36,10 +36,18 @@ function BrandFilter({ setFilter }) {
         <label>
           <input
             type="checkbox"
-            value="Ibanez"
+            value="ESP"
             onChange={(e) => updateBrandFilter(e)}
           />
-          <span>Ibanez</span>
+          <span>ESP</span>
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            value="Fender"
+            onChange={(e) => updateBrandFilter(e)}
+          />
+          <span>Fender</span>
         </label>
       </div>
     </>

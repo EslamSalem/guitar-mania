@@ -20,10 +20,18 @@ function GenreFilter({ setFilter }) {
         <label>
           <input
             type="checkbox"
-            value="Metal"
+            value="Heavy Metal"
             onChange={(e) => updateGenreFilter(e)}
           />
-          <span>Metal</span>
+          <span>Heavy Metal</span>
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            value="Hard Rock"
+            onChange={(e) => updateGenreFilter(e)}
+          />
+          <span>Hard Rock</span>
         </label>
         <label>
           <input
