@@ -18,8 +18,53 @@ header {
   width: 100%;
 }
 
-nav {
+nav ul {
   list-style: none;
   display: flex;
   gap: 16px;
+}
+
+nav ul li {
+  position: relative;
+  background-color: var(--primary-color-offset);
+  padding: 2px;
+}
+
+nav li:has(a.active) {
+  border-bottom: 1px solid transparent;
+  border-image: var(--border-gradient-horizontal) 1;
+}
+
+nav li::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), var(--accent-gradient));
+  z-index: -1;
+  top: 0;
+  left: 0;
+  padding-bottom: 1.5px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  animation: spin 2s linear infinite reverse;
+}
+
+nav li:hover:not(:has(a.active))::after {
+  opacity: 1;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
 }

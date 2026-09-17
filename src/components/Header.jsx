@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "../assets/logo/guitar-mania-logo-secondary-stroke.png";
 import "../styles/Header.css";
 
@@ -9,9 +9,17 @@ function Header() {
         <img src={logo} alt="Guitar Mania Logo" id="logo" />
       </Link>
       <nav>
-        <li>Link 1</li>
-        <li>Link 2</li>
-        <li>Link 3</li>
+        <ul>
+          <li>
+            <NavLink to={"/rockers"}>Famous Rockers</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/theory"}>Learn Theory</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/gear"}>Guitar Gear</NavLink>
+          </li>
+        </ul>
       </nav>
     </header>
   );

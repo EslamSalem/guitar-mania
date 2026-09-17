@@ -23,6 +23,8 @@ function Rockers() {
       behavior: "instant",
     });
 
+    document.title = "Famous Rockers | Guitar Mania"
+
     fetch("/data/rockers.json")
       .then((res) => res.json())
       .then((data) => {

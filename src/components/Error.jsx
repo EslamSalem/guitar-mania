@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -5,6 +6,13 @@ import "../styles/Error.css";
 import "../styles/Hero.css";
 
 function Error({ status }) {
+  useEffect(() => {
+    document.title =
+      status === 404
+        ? "Page Not Found | Guitar Mania"
+        : "Internal Server Error |  Guitar Mania";
+  }, []);
+  
   return (
     <div className="error-page">
       <Header />

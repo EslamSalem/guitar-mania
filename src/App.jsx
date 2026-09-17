@@ -14,6 +14,8 @@ function App() {
       left: 0,
       behavior: "instant",
     });
+
+    document.title = "Guitar Mania"
   }, []);
 
   return (

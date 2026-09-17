@@ -9,7 +9,7 @@ const routes = [
     errorElement: <Error status={404} />,
   },
   {
-    path: "rockers",
+    path: "/rockers",
     element: <Rockers />,
   },
 ];
