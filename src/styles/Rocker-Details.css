@@ -1,0 +1,16 @@
+#rocker-details-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#rocker-details-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-msg {
+  font-size: 1.5rem;
+}

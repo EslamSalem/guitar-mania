@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 import Header from "./Header";
 import RockersFilter from "./RockersFilter";
 import Card from "./Card";
@@ -23,7 +24,7 @@ function Rockers() {
       behavior: "instant",
     });
 
-    document.title = "Famous Rockers | Guitar Mania"
+    document.title = "Famous Rockers | Guitar Mania";
 
     fetch("/data/rockers.json")
       .then((res) => res.json())
@@ -62,7 +63,9 @@ function Rockers() {
           ) : rockersSorted.length > 0 ? (
             <div id="rockers-cards">
               {rockersSorted.map((item) => (
-                <Card id={item.id} img={item.cardImgURL} title={item.name} />
+                <Link key={item.id} to={`/rockers/${item.id}`}>
+                  <Card id={item.id} img={item.cardImgURL} title={item.name} />
+                </Link>
               ))}
             </div>
           ) : (

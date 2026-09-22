@@ -1,5 +1,6 @@
 import App from "./App";
 import Rockers from "./components/Rockers";
+import RockerDetails from "./components/RockerDetails";
 import Error from "./components/Error";
 
 const routes = [
@@ -11,6 +12,14 @@ const routes = [
   {
     path: "/rockers",
     element: <Rockers />,
+  },
+  {
+    path: "/rockers/:rockerID",
+    element: <RockerDetails />,
+  },
+  {
+    path: "*",
+    element: <Error status={404} />,
   },
 ];
 
