@@ -62,7 +62,7 @@ function Rockers() {
           ) : rockersSorted.length > 0 ? (
             <div id="rockers-cards">
               {rockersSorted.map((item) => (
-                <Card id={crypto.randomUUID()} img={item.cardImgURL} title={item.name} />
+                <Card id={item.id} img={item.cardImgURL} title={item.name} />
               ))}
             </div>
           ) : (
