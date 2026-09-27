@@ -5,7 +5,11 @@
     "genre": ["Heavy Metal", "Hard Rock"],
     "brand": "Schecter",
     "cardImgURL": "/images/rockers/Synyster Gates Card.jpg",
-    "heroImgURL": "/images/rockers/Synyster Gates Card.jpg"
+    "heroImgURL": "/images/rockers/Synyster Gates.jpg",
+    "guitarImgURL": "/images/rockers/Synyster Gates Guitar 1.jpg",
+    "guitarPNG": "/images/rockers/Synyster Gates Guitar PNG.png",
+    "bio": "Brian Elwin Haner Jr. (born July 7, 1981), better known by his stage name Synyster Gates or simply Syn, is an American guitarist, best known as the lead guitarist of heavy metal band Avenged Sevenfold. He ranks No. 9 on Guitar World's best metal guitarists of all time. Gates was voted as Best Metal Guitarist in the World by Total Guitar in 2016 and once again in 2017.\n\nSynyster Gates is the son of musician, author, and comedian Brian Haner Sr., known as Papa Gates, who worked with Sam the Sham's band in the 1970s and has done session work for Avenged Sevenfold. Gates studied at the Musicians Institute in Los Angeles, California, as part of the Guitar Institute of Music program, studying jazz and classical guitar.",
+    "guitarInfo": "Endorsed by Schecter Guitar Research since 2005, Gates is known for his many Avenger-based signature models. He has also used Gibson Guitars during the Waking the Fallen and City of Evil years. All of his signature models are solid mahogany bodies with neck-thru construction. Ebony fingerboards with custom Gothic Cross, \"SYN\", and Deathbat Mother of Pearl inlays. 25.5\" scale length with 24 extra jumbo frets. He has been seen playing headless guitars during live performances."
   },
   {
     "id": "brian-may",
@@ -13,7 +17,11 @@
     "genre": ["Rock", "Hard Rock"],
     "brand": "Gibson",
     "cardImgURL": "/images/rockers/Brian May.jpg",
-    "heroImgURL": "/images/rockers/Brian May.jpg"
+    "heroImgURL": "/images/rockers/Brian May.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "angus-young",
@@ -21,7 +29,11 @@
     "genre": ["Hard Rock", "Blues"],
     "brand": "Gibson",
     "cardImgURL": "/images/rockers/Angus Young Card.jpg",
-    "heroImgURL": "/images/rockers/Angus Young Card.jpg"
+    "heroImgURL": "/images/rockers/Angus Young.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "jimmy-page",
@@ -29,7 +41,11 @@
     "genre": ["Hard Rock", "Blues"],
     "brand": "Gibson",
     "cardImgURL": "/images/rockers/Jimmy Page 1.jpg",
-    "heroImgURL": "/images/rockers/Jimmy Page 1.jpg"
+    "heroImgURL": "/images/rockers/Jimmy Page 1.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "zacky-vengeance",
@@ -37,7 +53,11 @@
     "genre": ["Heavy Metal", "Hard Rock"],
     "brand": "Schecter",
     "cardImgURL": "/images/rockers/Zacky Vengeance.jpg",
-    "heroImgURL": "/images/rockers/Zacky Vengeance.jpg"
+    "heroImgURL": "/images/rockers/Zacky Vengeance.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "james-hetfield",
@@ -45,7 +65,11 @@
     "genre": ["Heavy Metal"],
     "brand": "ESP",
     "cardImgURL": "/images/rockers/James Hetfield 1.jpg",
-    "heroImgURL": "/images/rockers/James Hetfield 1.jpg"
+    "heroImgURL": "/images/rockers/James Hetfield 1.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "mark-knopfler",
@@ -53,7 +77,11 @@
     "genre": ["Rock", "Blues"],
     "brand": "Fender",
     "cardImgURL": "/images/rockers/Mark Knopfler Card.jpg",
-    "heroImgURL": "/images/rockers/Mark Knopfler Card.jpg"
+    "heroImgURL": "/images/rockers/Mark Knopfler.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "lzzy-hale",
@@ -61,7 +89,11 @@
     "genre": ["Hard Rock", "Heavy Metal"],
     "brand": "Gibson",
     "cardImgURL": "/images/rockers/Lzzy Hale Card.jpg",
-    "heroImgURL": "/images/rockers/Lzzy Hale Card.jpg"
+    "heroImgURL": "/images/rockers/Lzzy Hale.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "kirk-hammett",
@@ -69,7 +101,11 @@
     "genre": ["Heavy Metal"],
     "brand": "ESP",
     "cardImgURL": "/images/rockers/Kirk Hammet.jpg",
-    "heroImgURL": "/images/rockers/Kirk Hammet.jpg"
+    "heroImgURL": "/images/rockers/Kirk Hammet.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "tony-iommi",
@@ -77,7 +113,11 @@
     "genre": ["Heavy Metal", "Hard Rock"],
     "brand": "Gibson",
     "cardImgURL": "/images/rockers/Tony Iommi.jpg",
-    "heroImgURL": "/images/rockers/Tony Iommi.jpg"
+    "heroImgURL": "/images/rockers/Tony Iommi.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "dave-mustaine",
@@ -85,7 +125,11 @@
     "genre": ["Heavy Metal"],
     "brand": "Gibson",
     "cardImgURL": "/images/rockers/Dave Mustaine.jpg",
-    "heroImgURL": "/images/rockers/Dave Mustaine.jpg"
+    "heroImgURL": "/images/rockers/Dave Mustaine.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "david-gilmour",
@@ -93,7 +137,11 @@
     "genre": ["Rock", "Blues"],
     "brand": "Fender",
     "cardImgURL": "/images/rockers/David Gilmour 1.jpg",
-    "heroImgURL": "/images/rockers/David Gilmour 1.jpg"
+    "heroImgURL": "/images/rockers/David Gilmour 1.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "jim-root",
@@ -101,7 +149,11 @@
     "genre": ["Heavy Metal"],
     "brand": "Fender",
     "cardImgURL": "/images/rockers/Jim Root Card.jpg",
-    "heroImgURL": "/images/rockers/Jim Root Card.jpg"
+    "heroImgURL": "/images/rockers/Jim Root.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "gary-moore",
@@ -109,7 +161,11 @@
     "genre": ["Blues", "Hard Rock"],
     "brand": "Gibson",
     "cardImgURL": "/images/rockers/Gary Moore.jpg",
-    "heroImgURL": "/images/rockers/Gary Moore.jpg"
+    "heroImgURL": "/images/rockers/Gary Moore.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "jimi-hendrix",
@@ -117,7 +173,11 @@
     "genre": ["Rock", "Blues"],
     "brand": "Fender",
     "cardImgURL": "/images/rockers/Jimi Hendrix Card.jpg",
-    "heroImgURL": "/images/rockers/Jimi Hendrix Card.jpg"
+    "heroImgURL": "/images/rockers/Jimi Hendrix Card.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   },
   {
     "id": "kurt-cobain",
@@ -125,6 +185,10 @@
     "genre": ["Rock"],
     "brand": "Fender",
     "cardImgURL": "/images/rockers/Kurt Cobain.jpg",
-    "heroImgURL": "/images/rockers/Kurt Cobain.jpg"
+    "heroImgURL": "/images/rockers/Kurt Cobain.jpg",
+    "guitarImgURL": "",
+    "guitarPNG": "",
+    "bio": "",
+    "guitarInfo": ""
   }
 ]

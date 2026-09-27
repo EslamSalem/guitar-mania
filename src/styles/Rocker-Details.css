@@ -11,6 +11,58 @@
   align-items: center;
 }
 
+.rocker-details-section {
+  min-height: calc(100vh - 70px);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  width: 100%;
+}
+
+.rocker-details-section:not(:nth-of-type(1)) {
+  min-height: calc(100vh + 30px);
+}
+
+.backdrop {
+  position: relative;
+  width: 100%;
+  background-color: var(--primary-color-translucent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+
+.title {
+  font-family: 'Endor', sans-serif;
+  font-size: 3rem;
+  border-bottom: 1px solid transparent;
+  border-image: var(--border-gradient-horizontal) 1;
+  padding: 8px;
+  text-shadow: var(--shadow);
+}
+
+.rocker-details-section:not(:nth-of-type(1)) .title {
+  margin-top: 100px;
+}
+
+.bio {
+  width: 80%;
+  margin: auto;
+  white-space: pre-line;
+  font-size: 2rem;
+  text-shadow: var(--shadow);
+  text-align: justify;
+}
+
+.guitarPNG {
+  filter: drop-shadow(var(--shadow));
+  max-width: 80%;
+  width: 1000px;
+}
+
 .loading-msg {
   font-size: 1.5rem;
 }

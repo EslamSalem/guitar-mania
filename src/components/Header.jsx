@@ -10,21 +10,15 @@ function Header() {
       </Link>
       <nav>
         <ul>
-          <li>
-            <NavLink to={"/rockers"} end>
-              Famous Rockers
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to={"/theory"} end>
-              Learn Theory
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to={"/gear"} end>
-              Guitar Gear
-            </NavLink>
-          </li>
+          <NavLink to={"/rockers"} end>
+            <li>Famous Rockers</li>
+          </NavLink>
+          <NavLink to={"/theory"} end>
+            <li>Learn Theory</li>
+          </NavLink>
+          <NavLink to={"/gear"} end>
+            <li>Guitar Gear</li>
+          </NavLink>
         </ul>
       </nav>
     </header>

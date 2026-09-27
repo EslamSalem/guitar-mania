@@ -3,7 +3,7 @@
   height: 15vh;
   width: 100%;
   max-height: 100px;
-  background: var(--border-gradient-horizontal);
+  background: var(--border-gradient-divider);
   clip-path: ellipse(60% 95% at 50% 0%);
   border-top: 1px solid transparent;
 }

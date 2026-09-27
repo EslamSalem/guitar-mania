@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import Header from "./Header";
+import Divider from "./Divider";
 import Footer from "./Footer";
 import Error from "./Error";
 import "../styles/Rocker-Details.css";
@@ -54,7 +55,32 @@ function RockerDetails() {
     <section id="rocker-details-page">
       <Header />
       <main id="rocker-details-content">
-        <h1>{rocker.name}</h1>
+        <section
+          id="rocker-bio"
+          className="rocker-details-section"
+          style={{ backgroundImage: `URL("${rocker.heroImgURL}")` }}
+        >
+          <div className="backdrop">
+            <h1 className="title">{rocker.name}</h1>
+            <p className="bio">{rocker.bio}</p>
+          </div>
+        </section>
+        <section
+          id="rocker-guitar"
+          className="rocker-details-section"
+          style={{ backgroundImage: `URL("${rocker.guitarImgURL}")` }}
+        >
+          <div className="backdrop">
+            <Divider />
+            <h1 className="title">Signature Guitar</h1>
+            <p className="bio">{rocker.guitarInfo}</p>
+            <img
+              className="guitarPNG"
+              src={rocker.guitarPNG}
+              alt="Signature Guitar"
+            />
+          </div>
+        </section>
       </main>
       <Footer />
     </section>

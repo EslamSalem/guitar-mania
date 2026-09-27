@@ -30,7 +30,7 @@ nav ul li {
   padding: 2px;
 }
 
-nav li:has(a.active) {
+nav a.active li {
   border-bottom: 1px solid transparent;
   border-image: var(--border-gradient-horizontal) 1;
 }
@@ -50,8 +50,9 @@ nav li::after {
   animation: spin 2s linear infinite reverse;
 }
 
-nav li:hover:not(:has(a.active))::after {
+nav a:not(.active) li:hover::after {
   opacity: 1;
+
 }
 
 @property --angle {
