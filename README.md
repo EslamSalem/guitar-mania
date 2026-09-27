@@ -42,9 +42,13 @@ You can search for the guitarist you're looking for by name, filter them based o
 <br />
 <br />
 
-Clicking on a guitarist takes you to their detailed page with more info about them and listen to their solos. (still in development)
+Clicking on a guitarist takes you to their detailed page, using dynamic routing, where you can read more info about them, their signature guitars, and listen to their solos. (still in development)
 
 <video src="https://github.com/user-attachments/assets/490042a5-e69b-4c07-8c25-c21385a2febb" width="100%" autoplay loop muted controls></video>
+<video src="https://github.com/user-attachments/assets/0ea36429-e237-4694-b78e-f326ba0328e9" width="100%" autoplay loop muted controls></video>
+<img width="1920" height="1030" alt="Guitar Mania - Rocker Bio" src="https://github.com/user-attachments/assets/99f21419-4822-4809-847c-335f45eb3e84" />
+<img width="1920" height="1030" alt="Guitar Mania - Rocker Guitar" src="https://github.com/user-attachments/assets/bf9f32f4-255b-41e5-b95b-e2a72c9ebf9b" />
+
 
 <br />
 <hr />
