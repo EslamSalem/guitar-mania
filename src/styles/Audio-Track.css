@@ -1,0 +1,21 @@
+.audio-track {
+  display: flex;
+  gap: 24px;
+}
+
+.audio-control-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  padding: 8px;
+  background-color: var(--primary-color-offset);
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  transition: background-color .2s ease-in-out;
+}
+
+.audio-control-btn:hover {
+  background-color: var(--ternary-color-offset);
+}

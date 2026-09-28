@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import Header from "./Header";
 import Divider from "./Divider";
+import AudioTrack from "./audio/AudioTrack";
 import Footer from "./Footer";
 import Error from "./Error";
 import "../styles/Rocker-Details.css";
@@ -79,6 +80,8 @@ function RockerDetails() {
               src={rocker.guitarPNG}
               alt="Signature Guitar"
             />
+            <p className="bio song-title">Hail to the King - Avenged Sevenfold</p>
+            <AudioTrack soloURL={rocker.soloURL} />
           </div>
         </section>
       </main>

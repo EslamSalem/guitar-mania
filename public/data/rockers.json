@@ -9,7 +9,8 @@
     "guitarImgURL": "/images/rockers/Synyster Gates Guitar 1.jpg",
     "guitarPNG": "/images/rockers/Synyster Gates Guitar PNG.png",
     "bio": "Brian Elwin Haner Jr. (born July 7, 1981), better known by his stage name Synyster Gates or simply Syn, is an American guitarist, best known as the lead guitarist of heavy metal band Avenged Sevenfold. He ranks No. 9 on Guitar World's best metal guitarists of all time. Gates was voted as Best Metal Guitarist in the World by Total Guitar in 2016 and once again in 2017.\n\nSynyster Gates is the son of musician, author, and comedian Brian Haner Sr., known as Papa Gates, who worked with Sam the Sham's band in the 1970s and has done session work for Avenged Sevenfold. Gates studied at the Musicians Institute in Los Angeles, California, as part of the Guitar Institute of Music program, studying jazz and classical guitar.",
-    "guitarInfo": "Endorsed by Schecter Guitar Research since 2005, Gates is known for his many Avenger-based signature models. He has also used Gibson Guitars during the Waking the Fallen and City of Evil years. All of his signature models are solid mahogany bodies with neck-thru construction. Ebony fingerboards with custom Gothic Cross, \"SYN\", and Deathbat Mother of Pearl inlays. 25.5\" scale length with 24 extra jumbo frets. He has been seen playing headless guitars during live performances."
+    "guitarInfo": "Endorsed by Schecter Guitar Research since 2005, Gates is known for his many Avenger-based signature models. He has also used Gibson Guitars during the Waking the Fallen and City of Evil years. All of his signature models are solid mahogany bodies with neck-thru construction. Ebony fingerboards with custom Gothic Cross, \"SYN\", and Deathbat Mother of Pearl inlays. 25.5\" scale length with 24 extra jumbo frets. He has been seen playing headless guitars during live performances.",
+    "soloURL": "/audio/solos/Synyster Gates - Hail to the King.mp3"
   },
   {
     "id": "brian-may",
@@ -21,7 +22,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "angus-young",
@@ -33,7 +35,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "jimmy-page",
@@ -45,7 +48,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "zacky-vengeance",
@@ -57,7 +61,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "james-hetfield",
@@ -69,7 +74,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "mark-knopfler",
@@ -81,7 +87,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "lzzy-hale",
@@ -93,7 +100,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "kirk-hammett",
@@ -105,7 +113,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "tony-iommi",
@@ -117,7 +126,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "dave-mustaine",
@@ -129,7 +139,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "david-gilmour",
@@ -141,7 +152,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "jim-root",
@@ -153,7 +165,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "gary-moore",
@@ -165,7 +178,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "jimi-hendrix",
@@ -177,7 +191,8 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   },
   {
     "id": "kurt-cobain",
@@ -189,6 +204,7 @@
     "guitarImgURL": "",
     "guitarPNG": "",
     "bio": "",
-    "guitarInfo": ""
+    "guitarInfo": "",
+    "soloURL": ""
   }
 ]

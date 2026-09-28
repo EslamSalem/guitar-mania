@@ -33,6 +33,7 @@
   align-items: center;
   gap: 24px;
   padding-bottom: 24px;
+  text-shadow: var(--shadow);
 }
 
 .title {
@@ -41,7 +42,6 @@
   border-bottom: 1px solid transparent;
   border-image: var(--border-gradient-horizontal) 1;
   padding: 8px;
-  text-shadow: var(--shadow);
 }
 
 .rocker-details-section:not(:nth-of-type(1)) .title {
@@ -53,7 +53,6 @@
   margin: auto;
   white-space: pre-line;
   font-size: 2rem;
-  text-shadow: var(--shadow);
   text-align: justify;
 }
 
@@ -61,6 +60,14 @@
   filter: drop-shadow(var(--shadow));
   max-width: 80%;
   width: 1000px;
+}
+
+.song-title {
+  width: auto;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 8px;
+  border-image: var(--border-gradient-horizontal) 1;
 }
 
 .loading-msg {
