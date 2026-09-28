@@ -80,7 +80,7 @@ function RockerDetails() {
               src={rocker.guitarPNG}
               alt="Signature Guitar"
             />
-            <p className="bio song-title">Hail to the King - Avenged Sevenfold</p>
+            <p className="bio song-title">{rocker.songName}</p>
             <AudioTrack soloURL={rocker.soloURL} />
           </div>
         </section>
