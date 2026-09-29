@@ -1,21 +1,30 @@
 .audio-track {
+  position: relative;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 
+#visualizer {
+  position: absolute;
+}
+
 .audio-control-btn {
+  z-index: 1;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   color: inherit;
   padding: 8px;
-  background-color: var(--primary-color-offset);
+  background-color: transparent;
   border: 1px solid var(--secondary-color);
   border-radius: 6px;
   transition: background-color .2s ease-in-out;
 }
 
 .audio-control-btn:hover {
-  background-color: var(--ternary-color-offset);
+  background-color: #5a5a5a80;
 }
