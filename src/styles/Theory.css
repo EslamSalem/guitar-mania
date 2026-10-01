@@ -1,0 +1,72 @@
+#theory-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#theory-page-content {
+  margin-bottom: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.theory-msg {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.theory-title-container {
+  display: flex;
+  gap: 24px;
+}
+
+.theory-title-container .title {
+  cursor: pointer;
+  user-select: none;
+  font-size: 2rem;
+  position: relative;
+  background-color: var(--primary-color);
+}
+
+.theory-title-container .title:not(.active) {
+  border-image: none;
+}
+
+.theory-title-container .title::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), var(--accent-gradient));
+  z-index: -1;
+  top: 0;
+  left: 0;
+  padding-bottom: 3px;
+  opacity: 0;
+  animation: spin 2s linear infinite reverse;
+}
+
+.theory-title-container .title:not(.active):hover::after {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}

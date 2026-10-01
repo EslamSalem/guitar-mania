@@ -1,6 +1,6 @@
 :root {
   --primary-color: #121212;
-  --primary-color-translucent: rgba(18, 18, 18, 0.85);
+  --primary-color-translucent: rgba(18, 18, 18, 0.75);
   --primary-color-offset: #1a1a1a;
   --secondary-color: #f3f3f5;
   --secondary-color-translucent: rgba(243, 243, 245, 0.7);

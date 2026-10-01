@@ -1,6 +1,7 @@
 import App from "./App";
 import Rockers from "./components/Rockers";
 import RockerDetails from "./components/RockerDetails";
+import Theory from "./components/Theory";
 import Error from "./components/Error";
 
 const routes = [
@@ -16,6 +17,10 @@ const routes = [
   {
     path: "/rockers/:rockerID",
     element: <RockerDetails />,
+  },
+  {
+    path: "/theory",
+    element: <Theory />,
   },
   {
     path: "*",
