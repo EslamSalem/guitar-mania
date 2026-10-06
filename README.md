@@ -67,6 +67,11 @@ Learn music theory and how to use scales and chords in your guitar playing with 
 <br />
 <hr />
 
+<video src="https://github.com/user-attachments/assets/00530cba-43d6-4412-9d62-d1bbec796772" width="100%" autoplay loop muted controls></video>
+
+<br />
+<hr />
+
 ### 4. Guitar Gear
 
 Browse a collection of guitar related equipment like amps and pedals. (still in development)
