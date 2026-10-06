@@ -1,0 +1,69 @@
+.scales-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scales-drop-down {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  text-shadow: var(--shadow);
+}
+
+.scales-drop-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease-in-out;
+  width: fit-content;
+}
+
+.scales-drop-btn:hover {
+  background-color: var(--ternary-color-offset);
+  box-shadow: var(--shadow);
+}
+
+.arrow-icon {
+  font-size: 1.5em;
+  transform: rotate(180deg);
+}
+
+.scales-drop-menu {
+  position: absolute;
+  top: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-wrap: nowrap;
+  gap: 8px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  background-color: var(--ternary-color);
+  list-style: none;
+}
+
+.scales-drop-menu li {
+  padding: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.scales-drop-menu li:hover {
+  background-color: var(--ternary-color-offset);
+}
+
+.fretboard-img {
+  width: 80%;
+}

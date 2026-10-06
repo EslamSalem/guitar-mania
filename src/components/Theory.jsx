@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "./Header";
+import Scales from "./Scales";
 import Footer from "./Footer";
 import "../styles/Theory.css";
 
@@ -18,7 +19,7 @@ function Theory() {
   }, []);
 
   if (activeComponent === "scales") {
-    // selectedComponent = <Scales />;
+    selectedComponent = <Scales />;
   } else if (activeComponent === "chords") {
     // selectedComponent = <Chords />;
   } else {
