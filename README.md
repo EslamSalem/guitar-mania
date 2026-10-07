@@ -2,9 +2,7 @@
 
 > A fully interactive front-end website made with React.
 > <img src="https://www.readmecodegen.com/api/social-icon?name=react&size=25" alt="React" align="top" />\
-> The website is still in development. Below is an overview of the finished sections and the sections yet to come.\
-> **No generative AI was used** in the development of this site to generate text, images, or write code. All text was written manually,
-> all images used are free stock images found online, and edited manually in Photoshop when needed.
+> The website is still in development. Below is an overview of the finished sections and the sections yet to come.
 
 ## Overview
 
