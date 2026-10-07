@@ -60,7 +60,7 @@ Clicking on a guitarist takes you to their detailed page, using dynamic routing,
 
 ### 3. Learn Theory
 
-Learn music theory and how to use scales and chords in your guitar playing with an interactive guitar fretboard. (still in development)
+Learn music theory and how to use scales and chords in your guitar playing with an interactive guitar fretboard and the Circle of Fifths.
 
 <img width="1920" height="1030" alt="Guitar Mania - Homepage - Learn Theory" src="https://github.com/user-attachments/assets/a984f2c4-71e8-433f-9bb7-d6a2660d17ac" />
 
@@ -68,6 +68,11 @@ Learn music theory and how to use scales and chords in your guitar playing with 
 <hr />
 
 <video src="https://github.com/user-attachments/assets/00530cba-43d6-4412-9d62-d1bbec796772" width="100%" autoplay loop muted controls></video>
+
+<br />
+<hr />
+
+<video src="https://github.com/user-attachments/assets/60a646fe-d007-4f9d-96f2-4234ea8c4bbf" width="100%" autoplay loop muted controls></video>
 
 <br />
 <hr />
