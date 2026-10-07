@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "./Header";
 import Scales from "./Scales";
+import Chords from "./Chords";
 import Footer from "./Footer";
 import "../styles/Theory.css";
 
@@ -21,7 +22,7 @@ function Theory() {
   if (activeComponent === "scales") {
     selectedComponent = <Scales />;
   } else if (activeComponent === "chords") {
-    // selectedComponent = <Chords />;
+    selectedComponent = <Chords />;
   } else {
     selectedComponent = (
       <p className="theory-msg">

@@ -1,0 +1,19 @@
+.chords-component {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.key-name {
+  font-size: 1.2rem;
+  position: absolute;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.circle-of-fifths {
+  width: 600px;
+}

@@ -1,0 +1,55 @@
+.circle-of-fifths {
+  cursor: default;
+  user-select: none;
+}
+
+.bg-outer {
+  fill: none;
+  stroke: #f3f3f5;
+  stroke-width: 5px;
+}
+.bg-mid {
+  fill: none;
+  stroke: #f3f3f5;
+  stroke-width: 4px;
+}
+.bg-inner {
+  fill: none;
+  stroke: #f3f3f5;
+  stroke-width: 5px;
+}
+.spoke {
+  stroke: #f3f3f5;
+  stroke-width: 3px;
+}
+.txt-maj {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  fill: #f3f3f5;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+}
+.txt-min {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  fill: #f3f3f5;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+}
+.acc {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.cell-hitbox {
+  fill: #121212;
+  fill-opacity: 0;
+  cursor: pointer;
+  transition:
+    fill-opacity 0.15s ease,
+    fill 0.15s ease;
+}
